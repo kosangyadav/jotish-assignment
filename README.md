@@ -18,3 +18,9 @@ camera part:
 
 captured image:
 <img width="1007" height="994" alt="image" src="https://github.com/user-attachments/assets/2926ee2c-b141-43da-b251-c6a7ee20a6dd" />
+
+complete end-to-end working video:
+
+
+https://github.com/user-attachments/assets/e049b4bb-85d0-4a8d-ba9e-c4871d5f1d70
+
