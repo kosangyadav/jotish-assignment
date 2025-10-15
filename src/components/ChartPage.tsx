@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { fetchEmployeeData, type Employee as ApiEmployee } from "./apiService";
+import { fetchEmployeeData, type Employee as ApiEmployee } from "../apiService";
 
 interface Employee {
   name: string;

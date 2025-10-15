@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { fetchEmployeeData, type Employee } from "./apiService";
+import { fetchEmployeeData, type Employee } from "../apiService";
 
 const ListPage: React.FC = () => {
   const [employees, setEmployees] = useState<Employee[]>([]);

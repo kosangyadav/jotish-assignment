@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate, useParams, useLocation } from "react-router";
-import { getEmployeeById, type Employee } from "./apiService";
+import { getEmployeeById, type Employee } from "../apiService";
 
 const DetailsPage: React.FC = () => {
   const [employee, setEmployee] = useState<Employee | null>(null);

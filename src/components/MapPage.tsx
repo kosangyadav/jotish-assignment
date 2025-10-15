@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
-import { fetchEmployeeData, type Employee as ApiEmployee } from "./apiService";
+import { fetchEmployeeData, type Employee as ApiEmployee } from "../apiService";
 
 // Fix Leaflet default icons
 delete (L.Icon.Default.prototype as any)._getIconUrl;
